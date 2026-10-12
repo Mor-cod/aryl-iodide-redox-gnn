@@ -1,40 +1,49 @@
-# Byte-compiled / cache
+# Python
 __pycache__/
-*.py[cod]
-*.so
-
-# Virtual environments
+*.pyc
 .venv/
 venv/
 env/
-
-# Jupyter
+.env
 .ipynb_checkpoints/
 
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
+# Logs / temporary files
+*.log
+*.tmp
+*.bak
+*.swp
 
-# Environment / secrets
-.env
-*.pem
-*.key
+# Gaussian
+*.chk
+*.fchk
+*.rwf
+*.int
+*.d2e
+*.skr
 
-# OS / editor
+# ORCA
+*.gbw
+*.densities
+*.prop
+*.engrad
+*.hess
+*.cis
+
+# HPC
+pbs/
+slurm-*.out
+*.o[0-9]*
+*.e[0-9]*
+
+# ML checkpoints / temporary outputs
+wandb/
+runs/
+checkpoints/
+
+# Large or unreleased data
+raw_data/
+scratch/
+
+# OS
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
-
-# Logs
-*.log
-
-# Large data, model, and compute artifacts (added explicitly when ready for release)
-*.ckpt
-*.pt
-*.pth
-*.h5
-/data/
-/checkpoints/
-/results/
