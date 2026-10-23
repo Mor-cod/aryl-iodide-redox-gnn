@@ -179,4 +179,4 @@ Citation information will be added following publication of the associated manus
 
 - Morteza Jamshidi
 - Jason A. Smith
-- Brian F. T. Yates
+- Brian F. Yates
